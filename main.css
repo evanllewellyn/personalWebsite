@@ -24,7 +24,7 @@ body {
 	height: auto;
 }
 
-.introtest {
+.introTest {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 12pt;
 	font-weight: 400;
@@ -52,7 +52,6 @@ body {
     margin: 0;
     margin-top: -2%;
     padding: 0 39%;
-    overflow: hidden;
 }
 
 .me {
@@ -151,6 +150,11 @@ li a:hover {
 
 hr {
 	width: 90%;
+	border-color: #D9D9D9;
+	color: #D9D9D9;
+	border-left: #D9D9D9;
+	border-top: 1px solid #D9D9D9;
+	background-color: #D9D9D9;
 }
 
 .tenableTop a {
@@ -270,9 +274,19 @@ h1 {
 	color: #7A141E;
 }
 
-.faIcon {
+.faIcon i {
 	color: #7A141E;
 }
 
+.faIconA a {
+	color: #7A141E;
+}
 
+.faIconA a:hover { 
+	color: red;
+}
+
+.steam {
+	color: #1F1F1F;
+}
 
